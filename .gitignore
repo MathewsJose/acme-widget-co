@@ -1,0 +1,37 @@
+# Composer dependencies
+/vendor/
+
+# PHPUnit logs and cache
+.phpunit.result.cache
+coverage/
+test-output/
+
+# Environment and config
+.env
+.env.local
+.env.*.local
+
+# PHPStorm/IDE configuration
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.cache
+
+# Docker related (optional)
+docker-compose.override.yml
+docker/.env
+
+# Node/NPM (if used in future for frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Executable artifacts
+bin/*.phar
