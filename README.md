@@ -55,7 +55,7 @@ php bin/run.php R01 R01 G01
 ## Output
 
 ```bash
-Total: $90.85
+Total: $77.32
 ```
 
 
